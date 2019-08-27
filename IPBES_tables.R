@@ -10,6 +10,6 @@ tb = read.table(file="data/general.tsv", header=TRUE, sep="\t", skip=1)
 tb = tb[-which(is.na(tb[,1])),]
 
 
-
+### testing if the syncronization is working
 tb$ZU
 
